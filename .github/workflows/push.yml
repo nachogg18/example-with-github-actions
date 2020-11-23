@@ -28,7 +28,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: iggatsc/app:latest
+          tags: iggatsc/example-with-github-actions:latest
           
       -
         name: Image digest
